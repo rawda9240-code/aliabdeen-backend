@@ -1,2 +1,5 @@
-[phases.setup]
-phpExtensions = ["mysqli", "pdo_mysql", "openssl"]
+[phases.build]
+cmds = []
+
+[start]
+cmd = "php -S 0.0.0.0:$PORT index.php"
