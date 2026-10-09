@@ -5,4 +5,4 @@ nixPkgs = ["php82", "php82Packages.composer", "php82Extensions.mysqli", "php82Ex
 cmds = []
 
 [start]
-cmd = "php -S 0.0.0.0:$PORT -t ."
+cmd = "apache2-foreground"
